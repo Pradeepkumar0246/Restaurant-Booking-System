@@ -1,13 +1,13 @@
-﻿using RestaurantBookingSystem.DTO;
+﻿using RestaurantBookingSystem.Model.Customers;
 
 namespace RestaurantBookingSystem.Interface.IRepository
 {
     public interface IUserProfileRepository
     {
-        Task<List<UserProfileDto>> GetAllUserProfilesAsync();
-        Task<UserProfileDto?> GetUserProfileAsync(int userId);
-        Task<bool> CreateUserProfileAsync(CreateUserProfileDto createDto);
-        Task<bool> UpdateUserProfileAsync(int userId, UpdateUserProfileDto updateDto);
-        Task<bool> DeleteUserProfileAsync(int userId);
+        Task<List<Users>> GetAllUsersAsync();
+        Task<Users?> GetUserAsync(int userId);
+        Task<Users> CreateUserAsync(Users user);
+        Task<bool> UpdateUserAsync(Users user);
+        Task<bool> DeleteUserAsync(int userId);
     }
 }

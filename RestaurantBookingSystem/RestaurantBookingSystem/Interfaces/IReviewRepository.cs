@@ -1,13 +1,13 @@
-using RestaurantBookingSystem.DTO;
+using RestaurantBookingSystem.Model.Customers;
 
 namespace RestaurantBookingSystem.Interface.IRepository
 {
     public interface IReviewRepository
     {
-        Task<List<ReviewDto>> GetAllReviewsAsync();
-        Task<List<ReviewDto>> GetReviewsByRestaurantAsync(int restaurantId);
-        Task<ReviewDto?> GetReviewAsync(int reviewId);
-        Task<bool> CreateReviewAsync(CreateReviewDto createDto);
+        Task<List<Review>> GetAllReviewsAsync();
+        Task<List<Review>> GetReviewsByRestaurantAsync(int restaurantId);
+        Task<Review?> GetReviewAsync(int reviewId);
+        Task<Review> CreateReviewAsync(Review review);
         Task<bool> DeleteReviewAsync(int reviewId);
     }
 }

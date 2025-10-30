@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using RestaurantBookingSystem.Data;
-using RestaurantBookingSystem.DTO;
 using RestaurantBookingSystem.Interface.IRepository;
 using RestaurantBookingSystem.Model.Customers;
 
@@ -15,35 +14,19 @@ namespace RestaurantBookingSystem.Repository
             _context = context;
         }
 
-        public async Task<List<WishlistDto>> GetUserWishlistAsync(int userId)
+        public async Task<List<Wishlist>> GetUserWishlistAsync(int userId)
         {
             return await _context.Wishlist
                 .Include(w => w.User)
                 .Where(w => w.UserId == userId)
-                .Select(w => new WishlistDto
-                {
-                    WishlistId = w.WishlistId,
-                    UserId = w.UserId,
-                    ItemId = w.ItemId,
-                    RestaurantId = w.RestaurantId,
-                    CreatedAt = w.CreatedAt,
-                    UserName = w.User != null ? $"{w.User.FirstName} {w.User.LastName}" : null
-                }).ToListAsync();
+                .ToListAsync();
         }
 
-        public async Task<bool> AddToWishlistAsync(CreateWishlistDto createDto)
+        public async Task<Wishlist> AddToWishlistAsync(Wishlist wishlist)
         {
-            var wishlist = new Wishlist
-            {
-                UserId = createDto.UserId,
-                ItemId = createDto.ItemId,
-                RestaurantId = createDto.RestaurantId,
-                CreatedAt = DateTime.Now
-            };
-
             _context.Wishlist.Add(wishlist);
             await _context.SaveChangesAsync();
-            return true;
+            return wishlist;
         }
 
         public async Task<bool> RemoveFromWishlistAsync(int wishlistId)
@@ -52,21 +35,18 @@ namespace RestaurantBookingSystem.Repository
             if (wishlist == null) return false;
 
             _context.Wishlist.Remove(wishlist);
-            await _context.SaveChangesAsync();
-            return true;
+            return await _context.SaveChangesAsync() > 0;
         }
 
         public async Task<bool> RemoveFromWishlistAsync(int userId, int itemId)
         {
             var wishlist = await _context.Wishlist
-                .Where(w => w.UserId == userId && w.ItemId == itemId)
-                .FirstOrDefaultAsync();
+                .FirstOrDefaultAsync(w => w.UserId == userId && w.ItemId == itemId);
 
             if (wishlist == null) return false;
 
             _context.Wishlist.Remove(wishlist);
-            await _context.SaveChangesAsync();
-            return true;
+            return await _context.SaveChangesAsync() > 0;
         }
 
         public async Task<bool> ExistsAsync(int userId, int itemId)

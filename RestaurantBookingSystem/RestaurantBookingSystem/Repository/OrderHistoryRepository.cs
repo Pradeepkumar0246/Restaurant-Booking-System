@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using RestaurantBookingSystem.Data;
-using RestaurantBookingSystem.DTO;
 using RestaurantBookingSystem.Interface.IRepository;
+using RestaurantBookingSystem.Model.Restaurant;
 
 namespace RestaurantBookingSystem.Repository
 {
@@ -14,87 +14,34 @@ namespace RestaurantBookingSystem.Repository
             _context = context;
         }
 
-        public async Task<List<OrderHistoryDto>> GetAllOrdersAsync()
+        public async Task<List<Orders>> GetAllOrdersAsync()
         {
             return await _context.Orders
                 .Include(o => o.User)
-                .Select(o => new OrderHistoryDto
-                {
-                    OrderId = o.OrderId,
-                    RestaurantId = o.RestaurantId,
-                    UserId = o.UserId,
-                    ItemsList = o.ItemsList,
-                    OrderType = o.OrderType,
-                    QtyOrdered = o.QtyOrdered,
-                    OrderDate = o.OrderDate,
-                    TotalAmount = o.TotalAmount,
-                    Status = o.Status,
-                    UserName = o.User != null ? $"{o.User.FirstName} {o.User.LastName}" : null
-                }).ToListAsync();
+                .ToListAsync();
         }
 
-        public async Task<List<OrderHistoryDto>> GetOrdersByRestaurantAsync(int restaurantId)
+        public async Task<List<Orders>> GetOrdersByRestaurantAsync(int restaurantId)
         {
             return await _context.Orders
                 .Include(o => o.User)
                 .Where(o => o.RestaurantId == restaurantId)
-                .Select(o => new OrderHistoryDto
-                {
-                    OrderId = o.OrderId,
-                    RestaurantId = o.RestaurantId,
-                    UserId = o.UserId,
-                    ItemsList = o.ItemsList,
-                    OrderType = o.OrderType,
-                    QtyOrdered = o.QtyOrdered,
-                    OrderDate = o.OrderDate,
-                    TotalAmount = o.TotalAmount,
-                    Status = o.Status,
-                    UserName = o.User != null ? $"{o.User.FirstName} {o.User.LastName}" : null
-                }).ToListAsync();
+                .ToListAsync();
         }
 
-        public async Task<List<OrderHistoryDto>> GetOrdersByUserAsync(int userId)
+        public async Task<List<Orders>> GetOrdersByUserAsync(int userId)
         {
             return await _context.Orders
                 .Include(o => o.User)
                 .Where(o => o.UserId == userId)
-                .Select(o => new OrderHistoryDto
-                {
-                    OrderId = o.OrderId,
-                    RestaurantId = o.RestaurantId,
-                    UserId = o.UserId,
-                    ItemsList = o.ItemsList,
-                    OrderType = o.OrderType,
-                    QtyOrdered = o.QtyOrdered,
-                    OrderDate = o.OrderDate,
-                    TotalAmount = o.TotalAmount,
-                    Status = o.Status,
-                    UserName = o.User != null ? $"{o.User.FirstName} {o.User.LastName}" : null
-                }).ToListAsync();
+                .ToListAsync();
         }
 
-        public async Task<OrderHistoryDto?> GetOrderAsync(int orderId)
+        public async Task<Orders?> GetOrderAsync(int orderId)
         {
-            var order = await _context.Orders
+            return await _context.Orders
                 .Include(o => o.User)
-                .Where(o => o.OrderId == orderId)
-                .FirstOrDefaultAsync();
-
-            if (order == null) return null;
-
-            return new OrderHistoryDto
-            {
-                OrderId = order.OrderId,
-                RestaurantId = order.RestaurantId,
-                UserId = order.UserId,
-                ItemsList = order.ItemsList,
-                OrderType = order.OrderType,
-                QtyOrdered = order.QtyOrdered,
-                OrderDate = order.OrderDate,
-                TotalAmount = order.TotalAmount,
-                Status = order.Status,
-                UserName = order.User != null ? $"{order.User.FirstName} {order.User.LastName}" : null
-            };
+                .FirstOrDefaultAsync(o => o.OrderId == orderId);
         }
     }
 }

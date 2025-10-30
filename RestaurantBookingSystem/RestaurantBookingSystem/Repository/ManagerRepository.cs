@@ -1,8 +1,6 @@
 ﻿using RestaurantBookingSystem.Data;
-using RestaurantBookingSystem.DTO;
 using RestaurantBookingSystem.Interface;
 using RestaurantBookingSystem.Model.Manager;
-using System;
 
 namespace RestaurantBookingSystem.Repository
 {
@@ -15,20 +13,8 @@ namespace RestaurantBookingSystem.Repository
             _context = context;
         }
 
-        public async Task<ManagerDetails> CreateManagerAsync(ManagerRegisterDTO dto, string passwordHash)
+        public async Task<ManagerDetails> CreateManagerAsync(ManagerDetails manager)
         {
-            var manager = new ManagerDetails
-            {
-                ManagerName = dto.ManagerName,
-                UserId = dto.UserId,
-                Email = dto.Email,
-                PhoneNumber = dto.PhoneNumber,
-                PasswordHash = passwordHash,
-                CreatedAt = DateTime.Now,
-                UpdatedAt = DateTime.Now,
-                IsActive = true
-            };
-
             _context.ManagerDetails.Add(manager);
             await _context.SaveChangesAsync();
             return manager;

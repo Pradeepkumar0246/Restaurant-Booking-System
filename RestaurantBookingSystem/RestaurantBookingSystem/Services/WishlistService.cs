@@ -1,6 +1,7 @@
 using RestaurantBookingSystem.DTO;
 using RestaurantBookingSystem.Interface.IRepository;
 using RestaurantBookingSystem.Interface.IService;
+using RestaurantBookingSystem.Model.Customers;
 
 namespace RestaurantBookingSystem.Services
 {
@@ -18,7 +19,16 @@ namespace RestaurantBookingSystem.Services
             if (userId <= 0)
                 throw new ArgumentException("User ID must be greater than 0");
 
-            return await _wishlistRepo.GetUserWishlistAsync(userId);
+            var wishlists = await _wishlistRepo.GetUserWishlistAsync(userId);
+            return wishlists.Select(w => new WishlistDto
+            {
+                WishlistId = w.WishlistId,
+                UserId = w.UserId,
+                ItemId = w.ItemId,
+                RestaurantId = w.RestaurantId,
+                CreatedAt = w.CreatedAt,
+                UserName = w.User != null ? $"{w.User.FirstName} {w.User.LastName}" : null
+            }).ToList();
         }
 
         public async Task<bool> AddToWishlistAsync(CreateWishlistDto createDto)
@@ -37,7 +47,16 @@ namespace RestaurantBookingSystem.Services
             if (exists)
                 throw new InvalidOperationException("Item already exists in wishlist");
 
-            return await _wishlistRepo.AddToWishlistAsync(createDto);
+            var wishlist = new Wishlist
+            {
+                UserId = createDto.UserId,
+                ItemId = createDto.ItemId,
+                RestaurantId = createDto.RestaurantId,
+                CreatedAt = DateTime.Now
+            };
+
+            await _wishlistRepo.AddToWishlistAsync(wishlist);
+            return true;
         }
 
         public async Task<bool> RemoveFromWishlistAsync(int wishlistId)

@@ -4,7 +4,6 @@ using RestaurantBookingSystem.DTO;
 using RestaurantBookingSystem.Interface;
 using RestaurantBookingSystem.Model.Manager;
 using RestaurantBookingSystem.Model.Restaurant;
-using System;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -35,13 +34,40 @@ namespace RestaurantBookingSystem.Services
             // 2. Hash manager password
             string passwordHash = HashPassword(dto.Password);
 
-            // 3. Create Manager
-            var manager = await _managerRepository.CreateManagerAsync(dto, passwordHash);
+            // 3. Create Manager Model
+            var manager = new ManagerDetails
+            {
+                ManagerName = dto.ManagerName,
+                UserId = dto.UserId,
+                Email = dto.Email,
+                PhoneNumber = dto.PhoneNumber,
+                PasswordHash = passwordHash,
+                CreatedAt = DateTime.Now,
+                UpdatedAt = DateTime.Now,
+                IsActive = true
+            };
 
-            // 4. Create Restaurant
-            var restaurant = await _restaurantRepository.CreateRestaurantAsync(dto.Restaurant, manager.ManagerId);
+            var createdManager = await _managerRepository.CreateManagerAsync(manager);
 
-            return (manager, restaurant);
+            // 4. Create Restaurant Model
+            var restaurant = new Restaurants
+            {
+                RestaurantName = dto.Restaurant.RestaurantName,
+                Description = dto.Restaurant.Description,
+                Location = dto.Restaurant.Location,
+                City = dto.Restaurant.City,
+                ContactNo = dto.Restaurant.ContactNo,
+                DeliveryCharge = dto.Restaurant.DeliveryCharge,
+                RestaurantCategory = dto.Restaurant.RestaurantCategory,
+                RestaurantType = dto.Restaurant.RestaurantType,
+                ManagerId = createdManager.ManagerId,
+                CreatedAt = DateTime.Now,
+                IsActive = true
+            };
+
+            var createdRestaurant = await _restaurantRepository.CreateRestaurantAsync(restaurant);
+
+            return (createdManager, createdRestaurant);
         }
 
         private string HashPassword(string password)

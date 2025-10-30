@@ -15,7 +15,20 @@ namespace RestaurantBookingSystem.Services
 
         public async Task<List<OrderHistoryDto>> GetAllOrdersAsync()
         {
-            return await _orderRepo.GetAllOrdersAsync();
+            var orders = await _orderRepo.GetAllOrdersAsync();
+            return orders.Select(o => new OrderHistoryDto
+            {
+                OrderId = o.OrderId,
+                RestaurantId = o.RestaurantId,
+                UserId = o.UserId,
+                ItemsList = o.ItemsList,
+                OrderType = o.OrderType,
+                QtyOrdered = o.QtyOrdered,
+                OrderDate = o.OrderDate,
+                TotalAmount = o.TotalAmount,
+                Status = o.Status,
+                UserName = o.User != null ? $"{o.User.FirstName} {o.User.LastName}" : null
+            }).ToList();
         }
 
         public async Task<List<OrderHistoryDto>> GetOrdersByRestaurantAsync(int restaurantId)
@@ -23,7 +36,20 @@ namespace RestaurantBookingSystem.Services
             if (restaurantId <= 0)
                 throw new ArgumentException("Restaurant ID must be greater than 0");
 
-            return await _orderRepo.GetOrdersByRestaurantAsync(restaurantId);
+            var orders = await _orderRepo.GetOrdersByRestaurantAsync(restaurantId);
+            return orders.Select(o => new OrderHistoryDto
+            {
+                OrderId = o.OrderId,
+                RestaurantId = o.RestaurantId,
+                UserId = o.UserId,
+                ItemsList = o.ItemsList,
+                OrderType = o.OrderType,
+                QtyOrdered = o.QtyOrdered,
+                OrderDate = o.OrderDate,
+                TotalAmount = o.TotalAmount,
+                Status = o.Status,
+                UserName = o.User != null ? $"{o.User.FirstName} {o.User.LastName}" : null
+            }).ToList();
         }
 
         public async Task<List<OrderHistoryDto>> GetOrdersByUserAsync(int userId)
@@ -31,7 +57,20 @@ namespace RestaurantBookingSystem.Services
             if (userId <= 0)
                 throw new ArgumentException("User ID must be greater than 0");
 
-            return await _orderRepo.GetOrdersByUserAsync(userId);
+            var orders = await _orderRepo.GetOrdersByUserAsync(userId);
+            return orders.Select(o => new OrderHistoryDto
+            {
+                OrderId = o.OrderId,
+                RestaurantId = o.RestaurantId,
+                UserId = o.UserId,
+                ItemsList = o.ItemsList,
+                OrderType = o.OrderType,
+                QtyOrdered = o.QtyOrdered,
+                OrderDate = o.OrderDate,
+                TotalAmount = o.TotalAmount,
+                Status = o.Status,
+                UserName = o.User != null ? $"{o.User.FirstName} {o.User.LastName}" : null
+            }).ToList();
         }
 
         public async Task<OrderHistoryDto?> GetOrderAsync(int orderId)
@@ -39,7 +78,22 @@ namespace RestaurantBookingSystem.Services
             if (orderId <= 0)
                 throw new ArgumentException("Order ID must be greater than 0");
 
-            return await _orderRepo.GetOrderAsync(orderId);
+            var order = await _orderRepo.GetOrderAsync(orderId);
+            if (order == null) return null;
+
+            return new OrderHistoryDto
+            {
+                OrderId = order.OrderId,
+                RestaurantId = order.RestaurantId,
+                UserId = order.UserId,
+                ItemsList = order.ItemsList,
+                OrderType = order.OrderType,
+                QtyOrdered = order.QtyOrdered,
+                OrderDate = order.OrderDate,
+                TotalAmount = order.TotalAmount,
+                Status = order.Status,
+                UserName = order.User != null ? $"{order.User.FirstName} {order.User.LastName}" : null
+            };
         }
     }
 }

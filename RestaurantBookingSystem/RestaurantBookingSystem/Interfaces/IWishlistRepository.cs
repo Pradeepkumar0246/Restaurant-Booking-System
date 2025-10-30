@@ -1,11 +1,11 @@
-using RestaurantBookingSystem.DTO;
+using RestaurantBookingSystem.Model.Customers;
 
 namespace RestaurantBookingSystem.Interface.IRepository
 {
     public interface IWishlistRepository
     {
-        Task<List<WishlistDto>> GetUserWishlistAsync(int userId);
-        Task<bool> AddToWishlistAsync(CreateWishlistDto createDto);
+        Task<List<Wishlist>> GetUserWishlistAsync(int userId);
+        Task<Wishlist> AddToWishlistAsync(Wishlist wishlist);
         Task<bool> RemoveFromWishlistAsync(int wishlistId);
         Task<bool> RemoveFromWishlistAsync(int userId, int itemId);
         Task<bool> ExistsAsync(int userId, int itemId);

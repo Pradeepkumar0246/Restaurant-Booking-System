@@ -1,7 +1,7 @@
-﻿using RestaurantBookingSystem.DTO;
+using RestaurantBookingSystem.DTO;
 using RestaurantBookingSystem.Interface.IRepository;
 using RestaurantBookingSystem.Interface.IService;
-using RestaurantBookingSystem.Repository;
+using RestaurantBookingSystem.Model.Customers;
 
 namespace RestaurantBookingSystem.Services
 {
@@ -13,9 +13,21 @@ namespace RestaurantBookingSystem.Services
         {
             _userRepo = userRepo;
         }
+
         public async Task<List<UserProfileDto>> GetAllProfilesAsync()
         {
-            return await _userRepo.GetAllUserProfilesAsync();
+            var users = await _userRepo.GetAllUsersAsync();
+            return users.Select(u => new UserProfileDto
+            {
+                UserId = u.UserId,
+                FirstName = u.FirstName,
+                LastName = u.LastName,
+                Email = u.Email,
+                Mobile = u.Mobile,
+                IsActive = u.IsActive,
+                CreatedAt = u.CreatedAt,
+                LastLogin = u.LastLogin
+            }).ToList();
         }
 
         public async Task<UserProfileDto?> GetProfileAsync(int userId)
@@ -23,7 +35,20 @@ namespace RestaurantBookingSystem.Services
             if (userId <= 0)
                 throw new ArgumentException("User ID must be greater than 0");
 
-            return await _userRepo.GetUserProfileAsync(userId);
+            var user = await _userRepo.GetUserAsync(userId);
+            if (user == null) return null;
+
+            return new UserProfileDto
+            {
+                UserId = user.UserId,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                Mobile = user.Mobile,
+                IsActive = user.IsActive,
+                CreatedAt = user.CreatedAt,
+                LastLogin = user.LastLogin
+            };
         }
 
         public async Task<bool> CreateProfileAsync(CreateUserProfileDto createDto)
@@ -40,7 +65,20 @@ namespace RestaurantBookingSystem.Services
             if (string.IsNullOrWhiteSpace(createDto.Password))
                 throw new ArgumentException("Password is required");
 
-            return await _userRepo.CreateUserProfileAsync(createDto);
+            var user = new Users
+            {
+                FirstName = createDto.FirstName,
+                LastName = createDto.LastName,
+                Email = createDto.Email,
+                Password = createDto.Password,
+                Mobile = createDto.Mobile,
+                IsActive = true,
+                CreatedAt = DateTime.Now,
+                LastLogin = DateTime.Now
+            };
+
+            await _userRepo.CreateUserAsync(user);
+            return true;
         }
 
         public async Task<bool> UpdateProfileAsync(int userId, UpdateUserProfileDto updateDto)
@@ -48,7 +86,15 @@ namespace RestaurantBookingSystem.Services
             if (userId <= 0)
                 throw new ArgumentException("User ID must be greater than 0");
 
-            return await _userRepo.UpdateUserProfileAsync(userId, updateDto);
+            var user = await _userRepo.GetUserAsync(userId);
+            if (user == null) return false;
+
+            user.FirstName = updateDto.FirstName ?? user.FirstName;
+            user.LastName = updateDto.LastName ?? user.LastName;
+            user.Email = updateDto.Email ?? user.Email;
+            user.Mobile = updateDto.Mobile ?? user.Mobile;
+
+            return await _userRepo.UpdateUserAsync(user);
         }
 
         public async Task<bool> DeleteProfileAsync(int userId)
@@ -56,7 +102,7 @@ namespace RestaurantBookingSystem.Services
             if (userId <= 0)
                 throw new ArgumentException("User ID must be greater than 0");
 
-            return await _userRepo.DeleteUserProfileAsync(userId);
+            return await _userRepo.DeleteUserAsync(userId);
         }
     }
 }

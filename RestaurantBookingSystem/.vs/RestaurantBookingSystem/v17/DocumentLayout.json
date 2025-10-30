@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "J:\\RestaurantBookingSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\services\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\services\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\userpreferencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\userpreferencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\controllers\\managerregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\controllers\\managerregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\services\\userpreferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\services\\userpreferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\interfaces\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\interfaces\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\data\\bookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\data\\bookingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +63,8 @@
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\model\\restaurant\\reservations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\interfaces\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\interfaces\\iuserprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\interfaces\\iuserpreferencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\interfaces\\iuserpreferencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\interfaces\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\interfaces\\irestaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\controllers\\managerregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\controllers\\managerregistrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\controllers\\orderhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\controllers\\orderhistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,28 +103,12 @@
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\model\\manager\\managerdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\services\\userprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\dtos\\restaurantcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\dtos\\restaurantcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\managerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\restaurantrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\services\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\services\\managerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\interfaces\\imanagerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,18 +123,6 @@
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\model\\restaurant\\restaurants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\services\\userpreferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\services\\userpreferenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\userprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\userpreferencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\userpreferencerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\model\\customers\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\model\\customers\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -121,18 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\model\\restaurant\\menulist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\model\\restaurant\\menulist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\wishlistrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\repository\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\repository\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|solutionrelative:restaurantbookingsystem\\controllers\\userprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3687A6A5-9EF0-4B5A-A445-79005F834AD6}|RestaurantBookingSystem\\RestaurantBookingSystem.csproj|j:\\restaurantbookingsystem\\restaurantbookingsystem\\controllers\\userpreferencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -246,19 +246,111 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUserProfileRepository.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IUserProfileRepository.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Interfaces\\IUserProfileRepository.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IUserProfileRepository.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Interfaces\\IUserProfileRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "RestaurantRepository.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\RestaurantRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\RestaurantRepository.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\RestaurantRepository.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\RestaurantRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T12:59:38.396Z"
+              "WhenOpened": "2025-10-29T10:27:27.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\ReviewRepository.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\ReviewRepository.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\ReviewRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:22:57.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserPreferenceRepository.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\UserPreferenceRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\UserPreferenceRepository.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\UserPreferenceRepository.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\UserPreferenceRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T07:21:24.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfileRepository.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\UserProfileRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\UserProfileRepository.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\UserProfileRepository.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\UserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T06:43:58.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WishlistRepository.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\WishlistRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\WishlistRepository.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\WishlistRepository.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\WishlistRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:21:13.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagerService.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\ManagerService.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Services\\ManagerService.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\ManagerService.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Services\\ManagerService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:28:13.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManagerRepository.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\ManagerRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\ManagerRepository.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\ManagerRepository.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\ManagerRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:25:56.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManagerRegistrationController.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\ManagerRegistrationController.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Controllers\\ManagerRegistrationController.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\ManagerRegistrationController.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Controllers\\ManagerRegistrationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T10:30:01.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Interfaces\\IReviewRepository.cs",
@@ -266,35 +358,61 @@
               "RelativeToolTip": "RestaurantBookingSystem\\Interfaces\\IReviewRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T12:59:32.671Z"
+              "WhenOpened": "2025-10-29T12:59:32.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateUserPreferenceDto.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateUserPreferenceDto.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\DTOs\\CreateUserPreferenceDto.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateUserPreferenceDto.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\DTOs\\CreateUserPreferenceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "UserPreferenceService.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\UserPreferenceService.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Services\\UserPreferenceService.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\UserPreferenceService.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Services\\UserPreferenceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T12:59:24.468Z"
+              "WhenOpened": "2025-10-26T07:22:27.72Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateUserProfileDto.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateUserProfileDto.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\DTOs\\CreateUserProfileDto.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateUserProfileDto.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\DTOs\\CreateUserProfileDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "UserProfileController.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\UserProfileController.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Controllers\\UserProfileController.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\UserProfileController.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Controllers\\UserProfileController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA5wBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T12:59:22.049Z"
+              "WhenOpened": "2025-10-26T06:50:15.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
+              "Title": "UserProfileService.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\UserProfileService.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Services\\UserProfileService.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\UserProfileService.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Services\\UserProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T06:46:40.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookingContext.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Data\\BookingContext.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Data\\BookingContext.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Data\\BookingContext.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Data\\BookingContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwDIAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T17:56:34.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Reservations.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Model\\Restaurant\\Reservations.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Model\\Restaurant\\Reservations.cs",
@@ -306,20 +424,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingContext.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Data\\BookingContext.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Data\\BookingContext.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Data\\BookingContext.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Data\\BookingContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwDIAAABmAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "IUserProfileRepository.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IUserProfileRepository.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Interfaces\\IUserProfileRepository.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IUserProfileRepository.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\Interfaces\\IUserProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T17:56:34.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T12:59:38.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
+              "Title": "CreateUserProfileDto.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateUserProfileDto.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\DTOs\\CreateUserProfileDto.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateUserProfileDto.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\DTOs\\CreateUserProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:59:22.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateUserPreferenceDto.cs",
+              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateUserPreferenceDto.cs",
+              "RelativeDocumentMoniker": "RestaurantBookingSystem\\DTOs\\CreateUserPreferenceDto.cs",
+              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateUserPreferenceDto.cs",
+              "RelativeToolTip": "RestaurantBookingSystem\\DTOs\\CreateUserPreferenceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:59:24.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CreateWishlistDto.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\CreateWishlistDto.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\DTOs\\CreateWishlistDto.cs",
@@ -331,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "WishlistController.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\WishlistController.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Controllers\\WishlistController.cs",
@@ -343,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "IUserPreferenceRepository.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IUserPreferenceRepository.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Interfaces\\IUserPreferenceRepository.cs",
@@ -355,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "OrderHistoryController.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\OrderHistoryController.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Controllers\\OrderHistoryController.cs",
@@ -367,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "IRestaurantRepository.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IRestaurantRepository.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Interfaces\\IRestaurantRepository.cs",
@@ -379,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Controllers\\ReviewController.cs",
@@ -391,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "ManagerRegisterDTO.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\ManagerRegisterDTO.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\DTOs\\ManagerRegisterDTO.cs",
@@ -403,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "RestaurantCreateDTO.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\DTOs\\RestaurantCreateDTO.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\DTOs\\RestaurantCreateDTO.cs",
@@ -412,30 +553,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T10:21:03.005Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ManagerRepository.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\ManagerRepository.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\ManagerRepository.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\ManagerRepository.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\ManagerRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:25:56.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ManagerRegistrationController.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\ManagerRegistrationController.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Controllers\\ManagerRegistrationController.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\ManagerRegistrationController.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Controllers\\ManagerRegistrationController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:30:01.043Z"
             },
             {
               "$type": "Document",
@@ -451,7 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "ManagerDetails.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Model\\Manager\\ManagerDetails.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Model\\Manager\\ManagerDetails.cs",
@@ -475,19 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserProfileService.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\UserProfileService.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Services\\UserProfileService.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\UserProfileService.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Services\\UserProfileService.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA7wBEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:46:40.258Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Program.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Program.cs",
@@ -499,31 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RestaurantRepository.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\RestaurantRepository.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\RestaurantRepository.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\RestaurantRepository.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\RestaurantRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:27:27.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ManagerService.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\ManagerService.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Services\\ManagerService.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\ManagerService.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Services\\ManagerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:28:13.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "IManagerService.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IManagerService.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Interfaces\\IManagerService.cs",
@@ -535,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "IManagerRepository.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Interfaces\\IManagerRepository.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Interfaces\\IManagerRepository.cs",
@@ -547,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "Restaurants.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Model\\Restaurant\\Restaurants.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Model\\Restaurant\\Restaurants.cs",
@@ -559,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Users.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Model\\Customers\\Users.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Model\\Customers\\Users.cs",
@@ -571,43 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UserPreferenceRepository.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\UserPreferenceRepository.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\UserPreferenceRepository.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\UserPreferenceRepository.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\UserPreferenceRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T07:21:24.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserProfileRepository.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\UserProfileRepository.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\UserProfileRepository.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\UserProfileRepository.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\UserProfileRepository.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:43:58.62Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UserPreferenceService.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\UserPreferenceService.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Services\\UserPreferenceService.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Services\\UserPreferenceService.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Services\\UserPreferenceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T07:22:27.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Orders.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Model\\Restaurant\\Orders.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Model\\Restaurant\\Orders.cs",
@@ -628,18 +673,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T06:33:01.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ReviewRepository.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\ReviewRepository.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\ReviewRepository.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\ReviewRepository.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\ReviewRepository.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAkwGIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T06:22:57.728Z"
             },
             {
               "$type": "Document",
@@ -691,18 +724,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "WishlistRepository.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\WishlistRepository.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Repository\\WishlistRepository.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Repository\\WishlistRepository.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Repository\\WishlistRepository.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAuwE0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T06:21:13.593Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 33,
               "Title": "UserPreferenceController.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\UserPreferenceController.cs",
@@ -748,18 +769,6 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwBkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T18:01:15.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "UserProfileController.cs",
-              "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\UserProfileController.cs",
-              "RelativeDocumentMoniker": "RestaurantBookingSystem\\Controllers\\UserProfileController.cs",
-              "ToolTip": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Controllers\\UserProfileController.cs",
-              "RelativeToolTip": "RestaurantBookingSystem\\Controllers\\UserProfileController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T06:50:15.075Z"
             },
             {
               "$type": "Document",
@@ -811,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "MenuList.cs",
               "DocumentMoniker": "J:\\RestaurantBookingSystem\\RestaurantBookingSystem\\Model\\Restaurant\\MenuList.cs",
               "RelativeDocumentMoniker": "RestaurantBookingSystem\\Model\\Restaurant\\MenuList.cs",
