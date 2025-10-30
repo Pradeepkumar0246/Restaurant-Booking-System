@@ -1,7 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using RestaurantBookingSystem.Data;
-using RestaurantBookingSystem.DTO;
+﻿using RestaurantBookingSystem.DTO;
 using RestaurantBookingSystem.Interface;
+using RestaurantBookingSystem.Interface.IRepository;
 using RestaurantBookingSystem.Model.Manager;
 using RestaurantBookingSystem.Model.Restaurant;
 using System.Security.Cryptography;
@@ -13,19 +12,19 @@ namespace RestaurantBookingSystem.Services
     {
         private readonly IManagerRepository _managerRepository;
         private readonly IRestaurantRepository _restaurantRepository;
-        private readonly BookingContext _context;
+        private readonly IUserProfileRepository _userRepository;
 
-        public ManagerService(IManagerRepository managerRepository, IRestaurantRepository restaurantRepository, BookingContext context)
+        public ManagerService(IManagerRepository managerRepository, IRestaurantRepository restaurantRepository, IUserProfileRepository userRepository)
         {
             _managerRepository = managerRepository;
             _restaurantRepository = restaurantRepository;
-            _context = context;
+            _userRepository = userRepository;
         }
 
         public async Task<(ManagerDetails Manager, Restaurants Restaurant)> RegisterManagerWithRestaurantAsync(ManagerRegisterDTO dto)
         {
             // 1. Check if user password matches manager password
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.UserId == dto.UserId);
+            var user = await _userRepository.GetUserAsync(dto.UserId);
             if (user != null && user.Password == dto.Password)
             {
                 throw new Exception("Manager password cannot be same as user password.");
